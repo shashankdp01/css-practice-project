@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color:#d7ff42;
+}
+nav{
+    padding: 30px 40px;
+    width:100%;
+    display: flex;
+  align-items: center;
+    justify-content: space-between;
+}
+nav .part2{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 80px;
+     padding-top: 14px;
+   
+}
+nav h2{
+    font-size: 48px;
+    font-weight: 400;
+}
+nav a{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
